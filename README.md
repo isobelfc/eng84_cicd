@@ -1,1 +1,51 @@
 # CICD with Jenkins
+
+- SDLC (software development lifecycle)
+  - plan/design
+  - develop
+  - test
+  - deploy
+- problems in traditional SDLC
+  - scale and complexity
+    - functions
+    - architecture
+    - infrastructure
+    - developers
+    - operations
+  - manual and slow process
+  - broken communication
+  - human errors
+  - large volume of testing
+  - long deployment window
+  - high cost
+  - customer dissatisfaction
+- modern SDLC
+  - collaboration
+  - automation
+  - iterative
+- DevOps lifecycle stages
+  - continuous development
+  - continuous testing
+  - continuous integration
+  - continuous delivery/deployment
+  - continuous monitoring
+- CI - continuous integration
+  - practice of merging all developers' working copies to a shared mainline several times a day
+- CD
+  - continuous delivery teams produce software in short cycles, ensuring it can be reliably released at any time, and deployment to production is manual
+  - continuous deployment is the same, but deployment is automated
+
+- CI/CD Pipeline
+  - commit
+  - build
+  - automate tests
+  - deploy
+
+- why CI/CD
+  - reduce cost
+  - faster release rate
+  - smaller code changes
+  - fault isolations
+  - more test reliability
+  - increase team transparency and accountability
+  - easy maintenance and updates
